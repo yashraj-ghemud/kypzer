@@ -432,13 +432,13 @@ Contributions are welcome! Please follow these steps:
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed and by yashraj ghemud and dinesh 
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **OpenAI** & **Google** for AI APIs
+
 - **Vosk** for offline speech recognition
 - **PyAutoGUI** for UI automation
 - **pyttsx3** for text-to-speech
@@ -447,16 +447,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 ## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/kypzer-assistant/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/kypzer-assistant/discussions)
-- **Email**: your.email@example.com
+- **Email**: viczohacker1@gmail.com
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by Yashraj**
+**Made with ❤️ by Yashraj and dinesh**
 
 *"Your voice, your command, your way."*
 
