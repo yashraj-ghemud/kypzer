@@ -152,9 +152,7 @@ pip install -r requirements.txt
 4. **Set up environment variables**
 Create a `.env` file in the root directory:
 ```env
-# Required for AI features
-GEMINI_API_KEY=your_gemini_api_key_here
-OPENAI_API_KEY=your_openai_api_key_here  # Optional
+
 
 # Optional configurations
 INPUT_MODE=both          # text, voice, or both
@@ -172,12 +170,6 @@ python tools/setup_vosk.py
 ```bash
 python -m src.main
 ```
-
-### Building Executable
-```bash
-.\build_exe.ps1
-```
-Output: `dist/PCController.exe`
 
 ---
 
@@ -233,15 +225,13 @@ Output: `dist/PCController.exe`
 | `"Search for Python tutorials"` | Google search |
 | `"Open GitHub in Chrome"` | Specific browser |
 | `"Search cat videos on YouTube"` | YouTube search |
-| `"Open first result"` | Click top search result |
 
 ### AI Features
 
 | Command | Action |
 |---------|--------|
-| `"Write notes about machine learning in Notepad"` | AI-generated notes |
-| `"Describe my screen"` | AI screen analysis |
-| `"Send AI info on React to Tom"` | AI WhatsApp message |
+| `"Write notes about machine learning in Notepad with ai"` | AI-generated notes |
+| `"Send AI info on React to Tom with ai"` | AI WhatsApp message |
 
 ### Habit Tracking
 
@@ -271,33 +261,11 @@ Output: `dist/PCController.exe`
 | `"Do the task open Excel"` | Replay learned task |
 | `"List learned tasks"` | Show all custom commands |
 
-### Hinglish Examples
-```
-"Volume 50 percent kar do"
-"Bluetooth band kar"
-"Papa ko call kar WhatsApp pe"
-"Gaana bajao - Kesariya"
-```
 
 ---
 
 ## ⚙️ Configuration
 
-### Environment Variables
-
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `GEMINI_API_KEY` | - | Google Gemini API key |
-| `OPENAI_API_KEY` | - | OpenAI API key (optional) |
-| `INPUT_MODE` | `both` | `text`, `voice`, or `both` |
-| `UI_MODE` | `console` | `console` or `textbox` |
-| `STT_BACKEND` | `auto` | `auto`, `vosk`, or `sr` |
-| `STT_LANG` | `en-IN` | Language code for STT |
-| `ASSISTANT_VOICE_LANG` | `en` | TTS language |
-| `STT_TIMEOUT` | `12.0` | Listening timeout (seconds) |
-| `STT_PHRASE_TIME_LIMIT` | `25.0` | Max phrase duration |
-| `STT_AUDIO_FEEDBACK` | `true` | Beep sounds enabled |
-| `CURSOR_MOVE_DURATION` | `0.06` | UI automation speed |
 
 ### Voice Profiles
 
@@ -422,13 +390,10 @@ python tools/smoke_interpret.py
 - ✅ Windows Settings
 - ✅ File Explorer
 
-### AI Services
-- 🤖 **Google Gemini** (primary)
-- 🤖 **OpenAI GPT** (fallback)
-- 🤖 **ChatGPT Web** (for note generation)
+
 
 ### Speech Engines
-- 🎙️ **Vosk** (offline, multilingual)
+- 🎙️ **Vosk** (offline)
 - 🎙️ **SpeechRecognition** (Google/Sphinx)
 - 🔊 **pyttsx3** (TTS)
 
