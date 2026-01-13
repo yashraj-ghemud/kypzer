@@ -21,10 +21,9 @@ Modern PC users face several challenges:
 - **Repetitive Manual Tasks**: Switching between apps, typing messages, adjusting settings manually
 - **Limited Accessibility**: Traditional interfaces require precise mouse/keyboard control
 - **Productivity Gaps**: No unified way to control multiple apps (WhatsApp, Spotify, system settings) through voice
-- **Language Barriers**: Most assistants don't understand mixed-language conversations (Hinglish)
 - **Learning Curve**: Can't teach assistants custom workflows specific to your needs
 
-**Kypzer solves these problems** by providing a powerful, multilingual voice assistant that learns from you, automates complex workflows, and seamlessly integrates with Windows applications.
+**Kypzer solves these problems** by providing a powerful, voice assistant that learns from you, automates complex workflows, and seamlessly integrates with Windows applications.
 
 ---
 
