@@ -1,5 +1,32 @@
-# kypzer
-> A Windows-focused desktop voice assistant: modular STT → NLU → action planner → action modules → execution → TTS.
+<p align="center">
+  <img src="./.github/readme-assets/signal.gif" alt="Animated signal / product visual for kypzer" width="100%" />
+</p>
+
+<h1 align="center">kypzer</h1>
+
+<p align="center"><strong>A Windows-focused desktop voice assistant: modular STT → NLU → action planner → action modules → execution → TTS.</strong></p>
+
+<p align="center"><code>REPO//SIGNAL</code> · <code>SIGNAL / PRODUCT</code> · <code>LOOPING README EXPERIENCE</code></p>
+
+## Live signal
+
+| Lens | Readout |
+| --- | --- |
+| Portfolio lane | **SIGNAL / PRODUCT** |
+| Code surface | **103** tracked files observed |
+| Primary materials | **Python, Markdown, JSON** |
+| Verification | **14** test-related files observed |
+
+> A moving scan of the project surface. The animated frame above is a lightweight visual signature; the sections below remain the source of truth for implementation details.
+
+## Motion map
+
+`SIGNAL` → `SHAPE` → `RELEASE`
+
+Use the animated banner as the first signal, then move into the implementation dossier. The recommended next step is to verify the documented setup command against the repository scripts before extending the project.
+
+<details open>
+<summary><strong>Open the full project dossier</strong></summary>
 
 ## Overview
 Kypzer is a Python project that implements a voice-first (and text) assistant for Windows. The repository contains a console entrypoint (src/main.py), an AI Notepad automation workflow (src/assistant/ai_notepad_workflow.py — truncated in the supplied dossier), pinned dependencies (requirements.txt), unit tests, and tools/scripts for exercising features.
@@ -87,3 +114,9 @@ If you want to contribute or examine the codebase:
   - Add a .env.example (already present) and consider documenting required environment variables and adding .gitignore guidance for secrets.
 
 Note: The supplied dossier contains many development artifacts and tests but does not include an explicit contribution guide; follow the above file paths to begin code review and local testing.
+
+</details>
+
+---
+
+<p align="center"><sub>README motion system · visual layer by RepoSignal · implementation details remain project-specific</sub></p>
